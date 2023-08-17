@@ -3,9 +3,10 @@
 using namespace std;
 int main(){
     bool flg=true;
-    while (flg){
     print_hello();
+    while (flg){
     int n;
+    cout<<"enter your number"<<endl;
     cin>>n;
     if (n<0) {cout<<"-ve enter again"<<endl; continue;}
     flg = false;
