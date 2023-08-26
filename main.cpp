@@ -6,6 +6,7 @@ int main(){
     x=56;
     y=98;
     cout<<"output of GCD of "<<x<<" and "<<y<<" is: "<<gcd(x,y)<<endl;
+    cout<<"Using recursive GCD function answer is: "<<gcd_rec(x,y)<<endl;
     bool flg=true;
     print_hello();
     while (flg){
